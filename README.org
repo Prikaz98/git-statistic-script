@@ -12,21 +12,14 @@ Get statistic:
 #+end_src
 
 #+begin_src bash
-Params: [:repo /home/ivan/git/office-utils :days_since 365 :author Ivan :days_until 0]
-- commits: 17 (avg per day: 0)
-- lines added: 532 (avg per day: 1)
-- lines deleted: 168 (avg per day: 0)
-Params: [:repo /home/ivan/git/office-utils :days_since 365 :author Prikaznov :days_until 0]
-- commits: 17 (avg per day: 0)
-- lines added: 532 (avg per day: 1)
-- lines deleted: 168 (avg per day: 0)
-Params: [:repo /home/ivan/git/office-utils :days_since 365 :author IvanPrikaznov :days_until 0]
-- commits: 16 (avg per day: 0)
-- lines added: 479 (avg per day: 1)
-- lines deleted: 156 (avg per day: 0)
-Params: [:repo /home/ivan/git/office-utils :days_since 365 :author Prikaz98 :days_until 0]
+Params: [:repo /home/ivan/git/office-utils :days_since 365 :author 77636647+Prikaz98@users.noreply.github.com :days_until 0]
 - commits: 47 (avg per day: 0)
 - lines added: 529 (avg per day: 1)
 - lines deleted: 155 (avg per day: 0)
-- top authors: Prikaz98,IvanPrikaznov,Ivan Prikaznov
+Params: [:repo /home/ivan/git/office-utils :days_since 365 :author prikaznov555@mail.ru :days_until 0]
+- commits: 16 (avg per day: 0)
+- lines added: 479 (avg per day: 1)
+- lines deleted: 156 (avg per day: 0)
+
+- top authors: 77636647+Prikaz98@users.noreply.github.com,prikaznov555@mail.ru
 #+end_src
