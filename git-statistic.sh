@@ -11,7 +11,7 @@ else
     days_since="$2"
     authors="$3"
     if [ -z "$authors" ]; then
-        authors=$(git log --pretty="%an" | sort -u | uniq)
+        authors=$(git log --pretty="%ae" | sort -u | uniq)
     fi
 
     days_until="$4"
