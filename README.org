@@ -1,0 +1,27 @@
+#+title: Git statistic
+
+* Usage:
+--help
+#+begin_src bash
+sh git-statistic.sh --help
+#+end_src
+
+Output:
+#+begin_src bash
+--help
+Description: Script to calculate commits statistic by author
+Example: sh script.sh repo_dir author days_since days_until
+#+end_src
+
+Get statistic:
+#+begin_src bash
+./git-statistic.sh ~/git/office-utils Prikaz98 110 0
+#+end_src
+
+#+begin_src bash
+Params: [/home/ivan/git/office-utils/.git Prikaz98 110 0]
+- commits: 47 (avg per day: 0)
+- lines added: 529 (avg per day: 4)
+- lines deleted: 155 (avg per day: 1)
+- top authors: Prikaz98,IvanPrikaznov,Ivan Prikaznov
+#+end_src
