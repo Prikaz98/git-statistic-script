@@ -91,7 +91,7 @@ else
     done
 
     echo ""
-    top_authors=$(git --git-dir=$repo_dir log --pretty=format:"%aN" | sort | uniq -c | sort -nr | head -n 5 | awk '{$1=""; print substr($0,2)}' | paste -sd, -)
+    top_authors=$(git --git-dir=$repo_dir log --pretty=format:"%ae" | sort | uniq -c | sort -nr | head -n 5 | awk '{$1=""; print substr($0,2)}' | paste -sd, -)
     echo "- top authors: $top_authors"
     
 fi
